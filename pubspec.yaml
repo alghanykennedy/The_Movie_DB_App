@@ -1,0 +1,53 @@
+name: the_movie_db_app
+description: Flutter TheMovieDB Application with GetX State
+
+module:
+  androidPackage: com.alghanykennedy.getx_moviedb
+  iosBundleIdentifier: com.alghanykennedy.getx_moviedb
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0-417.0.dev <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  dio: ^5.1.1
+  connectivity_plus: ^3.0.3
+  another_flushbar: ^1.12.29
+  intl: ^0.18.0
+  flutter_svg: ^2.0.4
+  dropdown_search: ^5.0.6
+  equatable: ^2.0.5
+  cached_network_image: ^3.2.3
+  http_client: ^1.5.2
+  convex_bottom_bar: ^3.2.0
+  nil: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  image_path_android: assets/icons/app_icon.png
+  ios: true
+  image_path_ios: assets/icons/app_icon.png
+
+flutter:
+  assets:
+    - assets/
+    - assets/translate/
+    - assets/icons/
+
+  uses-material-design: true
