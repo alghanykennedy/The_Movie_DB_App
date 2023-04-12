@@ -22,7 +22,7 @@ For the UI big thanks to [Moviemax – Movie Apps UI Kits(Preview) By Qwalib](ht
 
 **2. Splash**
 <p align="left" width="50%">
-    <img width="33%" src="![image](https://user-images.githubusercontent.com/82708330/231488268-80a7d072-84c7-42ee-bf4d-147dd49ad44e.png)">
+    <img width="33%" src="https://user-images.githubusercontent.com/82708330/231488268-80a7d072-84c7-42ee-bf4d-147dd49ad44e.png">
 </p>
 
 
