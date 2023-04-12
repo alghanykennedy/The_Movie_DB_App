@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
+import 'package:the_movie_db_app/domain/core/utils/colors.dart';
 
 import '../../../data/models/index.dart';
 import '../../controllers/home_movie/index.dart';
@@ -35,9 +36,9 @@ class NowPlayingMoviesTab extends GetView<NowPlayingMoviesController> {
                 style: TextStyle(fontSize: 14),
               ),
               trailing: const Icon(
-                Icons.favorite,
+                Icons.notifications,
                 size: 26,
-                color: Colors.red,
+                color: lightAccentColor,
               ),
             ),
           ),
