@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:the_movie_db_app/presentation/controllers/signup/signup_controller.dart';
 import 'package:the_movie_db_app/presentation/navigation/routes/app_routes.dart';
 
-import '../../../domain/core/utils/global_variables.dart';
 import '../../../domain/core/utils/index.dart';
 import '../../widgets/base_widgets/index.dart';
 
@@ -60,6 +59,9 @@ class SignUpPage extends GetView<SignUpController> {
                               color: Colors.black,
                               fontWeight: FontWeight.bold),
                         ),
+                        const SizedBox(
+                          height: 10,
+                        ),
                         Text(
                           'app.signup.subtitle'.tr,
                           style: const TextStyle(
@@ -71,17 +73,10 @@ class SignUpPage extends GetView<SignUpController> {
                     ),
                   ),
                   const SizedBox(
-                    height: 65,
+                    height: 30,
                   ),
                   TextFormField(
-                    // controller: controller.email,
                     keyboardType: TextInputType.name,
-                    onSaved: (value) {
-                      // controller.email.text = value!;
-                    },
-                    // validator: (value) {
-                    //   return controller.validateEmail(value!);
-                    // },
                     decoration: InputDecoration(
                         prefixIcon: const Icon(Icons.person_outline_outlined),
                         labelText: 'app.form.name_labeltext'.tr,
@@ -92,14 +87,8 @@ class SignUpPage extends GetView<SignUpController> {
                     height: 20,
                   ),
                   TextFormField(
-                    // controller: controller.email,
                     keyboardType: TextInputType.emailAddress,
-                    onSaved: (value) {
-                      // controller.email.text = value!;
-                    },
-                    // validator: (value) {
-                    //   return controller.validateEmail(value!);
-                    // },
+                    onSaved: (value) {},
                     decoration: InputDecoration(
                         prefixIcon: const Icon(Icons.mail_outline),
                         labelText: 'app.form.email_labeltext'.tr,
@@ -110,15 +99,9 @@ class SignUpPage extends GetView<SignUpController> {
                     height: 20,
                   ),
                   TextFormField(
-                    // controller: controller.password,
                     obscureText: true,
                     keyboardType: TextInputType.visiblePassword,
-                    onSaved: (value) {
-                      // controller.password.text = value!;
-                    },
-                    // validator: (value) {
-                    //   return controller.validatePassword(value!);
-                    // },
+                    onSaved: (value) {},
                     decoration: InputDecoration(
                         prefixIcon: const Icon(Icons.fingerprint),
                         labelText: 'app.form.password_labeltext'.tr,

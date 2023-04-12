@@ -137,11 +137,11 @@ class WelcomeButtons extends GetView<WelcomeController> {
                   SizedBox(
                     height: 60,
                     width: Get.context?.width ?? Get.width,
-                    child: Center(
+                    child: const Center(
                       child: Text(
-                        state?.guestSessionId ?? "",
-                        style: const TextStyle(
-                          fontSize: 8,
+                        "Copyright © 2023 Alghany Kennedy.",
+                        style: TextStyle(
+                          fontSize: 10,
                           fontWeight: FontWeight.w300,
                         ),
                       ),

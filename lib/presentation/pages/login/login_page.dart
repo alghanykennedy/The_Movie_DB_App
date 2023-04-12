@@ -45,6 +45,7 @@ class LoginPage extends GetView<LoginController> {
                   children: [
                     Center(
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           SizedBox(
                               height: 50,
@@ -60,6 +61,9 @@ class LoginPage extends GetView<LoginController> {
                                 fontSize: 28,
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold),
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           Text(
                             'app.login.subtitle'.tr,

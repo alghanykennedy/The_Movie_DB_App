@@ -16,16 +16,17 @@ class PopularMoviesTab extends GetView<PopularMoviesController> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Padding(
-              padding: EdgeInsets.only(top: 25, left: 10, right: 10),
+            Padding(
+              padding: const EdgeInsets.only(top: 25, left: 10, right: 10),
               child: ListTile(
                 title: Text(
-                  'Populer',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  'movies.popular.icon'.tr,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text(
-                  "Film-film populer saat ini",
-                  style: TextStyle(fontSize: 14),
+                  "movies.now_popular.icon.subtitle".tr,
+                  style: const TextStyle(fontSize: 14),
                 ),
               ),
             ),

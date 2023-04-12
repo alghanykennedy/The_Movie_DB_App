@@ -31,6 +31,7 @@ dependencies:
   http_client: ^1.5.2
   convex_bottom_bar: ^3.2.0
   nil: ^1.1.1
+  flutter_launcher_icons: ^0.13.0
 
 dev_dependencies:
   flutter_test:
@@ -43,6 +44,7 @@ flutter_icons:
   image_path_android: assets/icons/app_icon.png
   ios: true
   image_path_ios: assets/icons/app_icon.png
+  background_color: "#ffffff"
 
 flutter:
   assets:

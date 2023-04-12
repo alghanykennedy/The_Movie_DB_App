@@ -14,16 +14,17 @@ class TopRatedMoviesTab extends GetView<TopRatedMoviesController> {
         onRefresh: controller.appendInitialMovies,
         child: Column(
           children: [
-            const Padding(
-              padding: EdgeInsets.only(top: 25, left: 10, right: 10),
+            Padding(
+              padding: const EdgeInsets.only(top: 25, left: 10, right: 10),
               child: ListTile(
                 title: Text(
-                  'Nilai Tertinggi',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  'movies.top_rated.icon'.tr,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text(
-                  "Film-film dengan penilaian tertinggi",
-                  style: TextStyle(fontSize: 14),
+                  'movies.top_rated.icon.subtitle'.tr,
+                  style: const TextStyle(fontSize: 14),
                 ),
               ),
             ),
