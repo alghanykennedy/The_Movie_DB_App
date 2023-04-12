@@ -19,37 +19,44 @@ For the UI big thanks to [Moviemax – Movie Apps UI Kits(Preview) By Qwalib](ht
 </p>
 
 
-**2. Welcome Page**
+
+**2. Splash**
+<p align="left" width="50%">
+    <img width="33%" src="![image](https://user-images.githubusercontent.com/82708330/231488268-80a7d072-84c7-42ee-bf4d-147dd49ad44e.png)">
+</p>
+
+
+**3. Welcome Page**
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/82708330/231478396-7f779507-cec7-4df4-9f0d-79f432a0b77d.png">
 </p>
 
 
-**3. Login Page**
+**4. Login Page**
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/82708330/231479166-0e713a5f-783e-4a7a-9e9d-bdfc4632f9c6.png">
 </p>
 
 
-**4. Sign Up Page**
+**5. Sign Up Page**
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/82708330/231479431-fd5710a1-a345-4545-bc73-23d93d0a0e7d.png">
 </p>
 
 
-**5. Home Movie Page**
+**6. Home Movie Page**
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/82708330/231479556-6cee326c-a8bc-4fcc-8510-610fc30bf35e.png">
 </p>
 
 
-**6. Detail Movie Page**
+**7. Detail Movie Page**
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/82708330/231480112-51975c4b-280d-49af-9ea6-802da4ed6c5b.png">
 </p>
 
 
-**7. Profile Page**
+**8. Profile Page**
 <p align="left" width="100%">
     <img width="33%" src="https://user-images.githubusercontent.com/82708330/231479642-396d36e8-ccce-4af4-a7ef-30e82a3909b1.png">
 </p>
