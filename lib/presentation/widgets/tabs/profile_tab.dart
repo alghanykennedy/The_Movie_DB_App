@@ -60,24 +60,25 @@ class ProfilePage extends StatelessWidget {
               const SizedBox(
                 height: 5,
               ),
-              const Padding(
-                padding: EdgeInsets.only(left: 20),
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
                 child: Text(
-                  'Account',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  'app.profile.account'.tr,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(
                 height: 5,
               ),
               ProfileMenuWidget(
-                title: 'Member',
+                title: 'app.profile.member'.tr,
                 endIcon: true,
                 icon: Icons.person,
                 onPress: () {},
               ),
               ProfileMenuWidget(
-                title: 'Change Password',
+                title: 'app.profile.changepass'.tr,
                 endIcon: true,
                 icon: Icons.lock,
                 onPress: () {},
@@ -89,30 +90,31 @@ class ProfilePage extends StatelessWidget {
               const SizedBox(
                 height: 5,
               ),
-              const Padding(
-                padding: EdgeInsets.only(left: 20),
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
                 child: Text(
-                  'General',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  'app.profile.general'.tr,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(
                 height: 5,
               ),
               ProfileMenuWidget(
-                title: 'Notifications',
+                title: 'app.profile.notifications'.tr,
                 endIcon: true,
                 icon: Icons.notifications,
                 onPress: () {},
               ),
               ProfileMenuWidget(
-                title: 'Language',
+                title: 'app.profile.language'.tr,
                 endIcon: true,
                 icon: Icons.travel_explore,
                 onPress: () {},
               ),
               ProfileMenuWidget(
-                title: 'Clear Cache',
+                title: 'app.profile.clear_cache'.tr,
                 endIcon: true,
                 icon: Icons.delete,
                 onPress: () {},
@@ -124,24 +126,25 @@ class ProfilePage extends StatelessWidget {
               const SizedBox(
                 height: 5,
               ),
-              const Padding(
-                padding: EdgeInsets.only(left: 20),
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
                 child: Text(
-                  'More',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  'app.profile.more'.tr,
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(
                 height: 5,
               ),
               ProfileMenuWidget(
-                title: 'Legal and Policies',
+                title: 'app.profile.legal_and_policies'.tr,
                 endIcon: true,
                 icon: Icons.shield,
                 onPress: () {},
               ),
               ProfileMenuWidget(
-                title: 'Help & Feedback',
+                title: 'app.profile.Help_and_Feedback'.tr,
                 endIcon: true,
                 icon: Icons.question_mark,
                 onPress: () {},
@@ -162,9 +165,9 @@ class ProfilePage extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ),
-                title: const Text(
-                  'Logout',
-                  style: TextStyle(color: Colors.red),
+                title: Text(
+                  'app.profile.logout'.tr,
+                  style: const TextStyle(color: Colors.red),
                 ),
               )
             ],
@@ -207,6 +210,6 @@ class ProfileMenuWidget extends StatelessWidget {
           ),
         ),
         title: Text(title),
-        trailing: endIcon ? Icon(Icons.arrow_forward_ios) : null);
+        trailing: endIcon ? const Icon(Icons.arrow_forward_ios) : null);
   }
 }

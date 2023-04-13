@@ -1,3 +1,3 @@
 class AppStrings {
-  static const String appName = "Flutter The Movie DB";
+  static const String appName = "The Movie DB App";
 }

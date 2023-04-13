@@ -31,9 +31,9 @@ class NowPlayingMoviesTab extends GetView<NowPlayingMoviesController> {
                 'Hello, Alghany Kennedy',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
-              subtitle: const Text(
-                "Let's stream your favorite movie",
-                style: TextStyle(fontSize: 14),
+              subtitle: Text(
+                'movies.now_playing.icon.title'.tr,
+                style: const TextStyle(fontSize: 14),
               ),
               trailing: const Icon(
                 Icons.notifications,
